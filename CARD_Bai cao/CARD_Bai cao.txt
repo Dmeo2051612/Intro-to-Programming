@@ -1,0 +1,22 @@
+Cho cấu trúc lưu trữ một lá bài tây như sau:
+
+typedef struct CARD {
+int shape;  //1: hearts, 2: diamonds, 3: clubs, 4: spades
+int number;  //1 --> 13: 11 = J, 12 = Q, 13 = K
+};
+
+Viết chương trình nhập vào 3 lá bài. In ra màn hình số nút tính theo trò chơi bài cào tương ứng với 3 lá bài đó. Lưu ý: bù thì xuất ra 0, 3 lá bài đều là quân hình thì xuất ra 10.
+
+VD:
+
+Input: (6 chuồn, 7 bích, 2 cơ)
+
+3 6
+
+4 7
+
+1 2
+
+Output: (5 nút)
+
+5
