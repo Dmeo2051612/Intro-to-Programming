@@ -1,0 +1,9 @@
+# File thực thi và file biên dịch C++
+*.exe
+*.out
+*.o
+*.obj
+
+# File tạm
+*.tmp
+*.log
