@@ -1,0 +1,46 @@
+Đề bài: Tìm 2 học sinh vắng mặt
+Một lớp có 30 học sinh được đánh số thứ tự từ 1 đến 30. Một hôm, lớp điểm danh và có 28 bạn có mặt. Giáo viên có danh sách 28 học sinh có mặt nhưng chưa biết 2 học sinh nào vắng mặt. Hãy giúp giáo viên tìm ra 2 học sinh đó.
+
+Đầu vào
+
+- Gồm 28 dòng, mỗi dòng chứa một số nguyên dương duy nhất là số thứ tự của một học sinh có mặt.
+
+Đầu ra
+
+- In ra 2 số nguyên dương là số thứ tự của 2 học sinh vắng mặt, cách nhau bởi một dấu cách và theo thứ tự tăng dần.
+
+Ví dụ
+
+Input:
+3
+1
+4
+5
+7
+9
+6
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+
+
+Output:
+2 8
