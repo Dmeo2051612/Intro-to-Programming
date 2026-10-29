@@ -1,19 +1,45 @@
-Cho mảng a có n phần tử chứa các giá trị 0-9 biểu biễn một số nguyên. Cộng số nguyên này với 1 và in ra kết quả. Chú ý: kết quả có thể lớn hơn 10^18.
+#include <bits/stdc++.h>
+using namespace std;
 
-Dữ liệu vào:
+int main() {
+    int n; cin >> n;
+    int *a = new int[n + 1];
+    a[0] = 0;
+    for(int i = 1; i <= n; i++) {
+        cin >> a[i];
+    }
 
-Dòng đầu tiên là số phần tử của mảng, n (1 < n < 100)
-Dòng thứ hai là n phần tử của mảng, mỗi phần tử là một trong các giá trị từ 0 đến 9 và cách nhau bởi một khoảng trắng. Giả định giá trị đầu tiên của mảng khác 0.
-Dữ liệu ra: số nguyên được biểu diễn bởi mảng cộng thêm 1.
+    bool isNho = 0;
+    for(int i = n; i >= 0; i--) {
+        if(i == n) {
+            if(a[i] == 9) {
+                isNho = 1;
+                a[i] = 0;
+            }
+            else {
+                a[i]++;
+                isNho = 0;
+            }
+        }
+        
+        else{
+            if(isNho == 1) {
+                if(a[i] == 9) {
+                    a[i] = 0;
+                }
+                else {
+                    isNho = 0;
+                    a[i]++;
+                }
+            }
+        }
+    }
+    
+   int start = (a[0] == 0) ? 1 : 0;
+   for(int i = start; i <= n; i++) {
+    cout << a[i];
+   }
 
-Dữ liệu vào	Dữ liệu ra  	Giải thích
-3
-
-9 9 9
-
-1000	Số nguyên được biểu diễn bởi mảng là 999. Lấy số này cộng 1 sẽ là 1000.
-4
-
-1 5 4 3
-
-1544	Số nguyên được biểu diễn bởi mảng là 1543. Lấy số này cộng 1 sẽ là 1544.
+    delete[] a;
+    return 0;
+}
