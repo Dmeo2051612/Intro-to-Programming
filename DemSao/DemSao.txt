@@ -1,0 +1,42 @@
+Cho mảng 2 chiều a kích thước m * n (m dòng, n cột, 1 < m, n < 20). Mỗi giá trị của mảng chỉ chứa '0' hoặc '*'. Hãy thay đổi mảng a sao cho mỗi ký tự '0' được thay bằng số lượng ký tự '*' quanh (trên, dưới, trái, và phải) nó.
+
+Input: 
+
+Dòng 1 gồm m và n
+m dòng tiếp theo, mỗi dòng gồm n ký tự ('0', hoặc '*'), cách nhau bởi khoảng trắng
+Output: mảng a sau khi đã biến đổi theo mô tả
+
+Ví dụ:
+
+Dữ liệu vào	Dữ liệu ra    	Giải thích
+7 10
+
+0 0 0 * * * * * 0 0
+
+* 0 * * 0 0 0 0 * *
+
+0 0 0 0 * 0 0 * * 0
+
+0 * * 0 * 0 0 0 0 0
+
+0 * 0 * 0 0 * 0 * 0
+
+0 0 * * * * * * * 0
+
+0 0 * * 0 0 0 * * 0
+
+1 0 2 * * * * * 2 1
+
+* 2 * * 3 1 1 3 * *
+
+1 1 2 2 * 1 1 * * 2
+
+1 * * 3 * 1 1 1 2 0
+
+1 * 4 * 3 2 * 3 * 1
+
+0 2 * * * * * * * 1
+
+0 1 * * 2 1 2 * * 1
+
+Số 0 đầu tiên ở vị trí (0, 0) được thay bằng số 1 vì có 1 ký tự * quanh nó (nằm ở bên dưới). Tương tự, ta có thể xử lý cho các vị trí tiếp theo và được kết quả như đã mô tả.
