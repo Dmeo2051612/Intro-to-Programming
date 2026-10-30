@@ -1,0 +1,16 @@
+Cho hai chuỗi s và t. Hãy xóa các ký tự có trong chuỗi t khỏi chuỗi s?
+
+Dữ liệu vào: 
+
+Dòng đầu tiên là chuỗi s (nhỏ hoặc bằng hơn 50 ký tự)
+Dòng thứ hai là là chuỗi t (nhỏ hoặc bằng hơn 50 ký tự)
+Dữ liệu ra: chuỗi kết quả sau khi đã xóa các ký tự có trong chuỗi t khỏi chuỗi s.
+
+Ví dụ:
+
+Dữ liệu vào	Dữ liệu ra 	Giải thích
+we are students.
+
+aeiou
+
+w r stdnts.	s = “we are students.”, t = “aeiou”, chuỗi kết quả sau khi đã xóa các ký tự có trong chuỗi t khỏi chuỗi s là “w r stdnts.”
