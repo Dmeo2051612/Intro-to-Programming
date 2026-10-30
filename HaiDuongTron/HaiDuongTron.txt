@@ -1,0 +1,19 @@
+Cho hai đường tròn với tọa độ tâm và bán kính. Hãy xác định xem hai đường tròn này có quan hệ với nhau như thế nào và xuất ra giá trị tương ứng.
+
+Dữ liệu vào: gồm 6 số nguyên cách nhau bởi khoảng trắng (x1 y1 r1 x2 y2 r2) mô tả tọa độ và bán kính của đường tròn thứ nhất và thứ hai.
+
+Dữ liệu ra: 
+
+1 nếu đường tròn thứ hai nằm bên trong đường tròn thứ nhất hoặc ngược lại
+2 nếu hai đường tròn tiếp tuyến bên trong với nhau
+3 nếu hai đường tròn cắt nhau tại 2 điểm
+4 nếu hai đường tròn tiếp tuyến bên ngoài với nhau
+5 nếu hai đường tròn nằm bên ngoài nhau
+Ví dụ:
+
+Dữ liệu vào	Dữ liệu ra	Giải thích
+0 0 5 3 2 1	1	Đường tròn (3, 2, 1) nằm bên trong đường tròn (0, 0, 5)
+0 0 5 0 3 2	2	Đường tròn (0, 3, 2) tiếp tuyến bên trong với đường tròn (0, 0, 5)
+0 0 5 0 3 3	3	Đường tròn (0, 3, 3) cắt đường tròn (0, 0, 5) tại 2 điểm
+0 0 5 0 7 2	4	Đường tròn (0, 7, 2) tiếp tuyến bên ngoài với đường tròn (0, 0, 5)
+0 0 5 0 8 1	5	Đường tròn (0, 8, 1) nằm bên ngoài đường tròn (0, 0, 5)
