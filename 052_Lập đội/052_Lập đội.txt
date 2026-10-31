@@ -1,0 +1,30 @@
+ID : 052, Title : Lập độ
+Một ngày đẹp trời, ba người bạn thân là A, B và C quyết định lập một đội thi ICPC. Những người tham gia thường được đưa ra một số
+bài toán yêu cầu phải giải quyết. Rất lâu trước khi bắt đầu, những người bạn đã quyết định rằng họ sẽ thực hiện một bài toán nếu 
+có ít nhất hai người trong số họ chắc chắn vềgiải pháp. Nếu không, những người bạn sẽkhông viết giải pháp cho bài toán đó. 
+Cuộc thi này cung cấp n bài toán cho những người tham gia. Với mỗi bài toán, chúng ta biết được người nào biết giải pháp cho 
+bài toán đó. Giúp những người bạn tính toán số lượng bài toán mà họ sẽ viết giải pháp.
+
+Đầu vào : 
+-Dòng đầu tiên gồm sốnguyên dương n(1 ≤n ≤1000) số lượng bài toán.
+-n dòng tiếp theo, mỗi dòng gồm ba số nguyên ai, bi, ci(0 ≤ai, bi, ci≤1) lần lượt là nhận xét của A, Bvà C vềbài toán thứ i 
+(nếu nhận xét là 1 thì người đó có giải pháp, ngược lại người đókhông có giải pháp).
+
+Đầu ra: 
+In rasốlượng bài toán mà họ(A, B và C)sẽviết giải pháp.
+Ví dụ:
+Đầu vào                       Đầu ra
+3                                2
+1 1 0
+1 1 1
+1 0 0
+
+
+Đầu vào                        Đầu ra
+2                               1
+1 0 0
+0 1 1
+Giải thích : 
+Trong ví dụ 1, bài toán đầu tiên có A và B có giải pháp, nên họ sẽ viết giải pháp về nó. 
+Bài toán thứhai, cả3 người đều có giải pháp nên họsẽviết giải pháp vềnó. 
+Bài toán thứ ba, chỉ có A có giải pháp, nên họsẽkhông viết giải pháp vềnó.Tóm lại họ sẽv iết giải pháp cho 2 bài toán
