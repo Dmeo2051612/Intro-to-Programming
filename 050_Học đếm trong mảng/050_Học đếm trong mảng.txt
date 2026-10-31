@@ -1,0 +1,12 @@
+ID : 050, Title : Học đếm trong mảng
+Cho mảng A gồm n phần tửvà một sốn guyên x, nhiệm vụ của bạn là đếm xem trong mảng A số lần xuất hiện của x.
+
+Đầu vào : 
+-Dòng đầu tiên gồm hai sốnguyên dương n (1 ≤ n ≤1000) số lượng phần tử của mảng và x (-1000 ≤x ≤1000)giá trịcần kiểm tra.
+-Dòng tiếp theo chứa n sốnguyên ai (1 ≤i ≤n) (-1000 ≤ai ≤1000) là các phần tửcủa mảng.
+
+Đầu ra: In ra số lần xuất hiện của x trong mảng A. 
+Ví dụ:
+Đầu vào                     Đầu ra
+5 3                             1
+1 2 3 4 5
