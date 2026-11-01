@@ -1,0 +1,13 @@
+ID : 049, Title : Tìm kiếm trong mảng
+Cho mảng A gồm n phần tử và một số nguyên x, nhiệm vụ của bạn là kiểm tra xem trong mảng A có tồn tại x không.
+
+Đầu vào : 
+-Dòng đầu tiên gồm hai số nguyên dương n (1 ≤ n ≤ 1000) số lượng phần tử của mảng và x (-1000 ≤x ≤1000) giá trịcần kiểm tra.
+-Dòng tiếp theo chứa n số nguyên ai (1 ≤i ≤n) (-1000 ≤ai ≤1000) là các phần tửcủa mảng.
+
+Đầu ra: In ra YES nếu xuất hiện trong A, ngược lại in ra NO
+
+Ví dụ:
+Đầu vào         Đầu ra
+5 3             YES
+1 2 3 4 5
