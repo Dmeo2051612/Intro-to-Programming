@@ -1,0 +1,14 @@
+ID : 048, Title : Xoay ma trậnCho ma trận A gồm n dòng và n cột. 
+Hãy xoay ma trận theo 90 độtheo chiều kim đồng hồ.
+Đầu vào : 
+-Dòng đầu tiên gồm sốnguyên dương n( 1 ≤ n≤ 100) kích thước của ma trận
+-n dòng tiếp theo, dòng thứ i (1 ≤ i ≤ n) chứa n số nguyên aij(1 ≤ j ≤ n) là phần tử thứ j của dòng i. (1 ≤ aij≤ 1000)
+
+Đầu ra: 
+In ra ma trận sau khi xoay 90 đột heo chiều kim đồng hồ. Ví dụ:
+
+Đầu vào                     Đầu ra
+3                       
+1 2 3                       7 4 1
+4 5 6                       8 5 2
+7 8 9                       9 6 3
