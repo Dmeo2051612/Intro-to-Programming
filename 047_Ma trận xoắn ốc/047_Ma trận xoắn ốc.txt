@@ -1,0 +1,12 @@
+ID : 047, Title : Ma trận xoắn ốc 
+Cho hai số nguyên dương n và m. 
+In ra ma trận xoắn ốc kích cỡ n dòng và m cột.
+
+Đầu vào : -Dòng đầu tiên gồm hai sốnguyên dương n, m (1 ≤ n, m ≤ 100).
+Đầu ra: In ra ma trận xoắn ốc kích thước n dòng, m cột.
+Ví dụ:
+Đầu vào         Đầu ra
+3 3
+                1 2 3 
+                8 9 4 
+                7 6 5
