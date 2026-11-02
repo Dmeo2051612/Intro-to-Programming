@@ -1,0 +1,25 @@
+D : 045, Title : Tổng đường chéo
+
+Cho mảng hai chiều A gồm n hàng và m cột và hai số nguyên dương x, y. 
+Nhiệm vụcủa bạn là tính tổng các phần tử nằm trên một trong hai đường chéo đi qua phần tử nằm trên hàng x, cột y (axy)
+
+Đầu vào : 
+-Dòng đầu tiên gồm bốn số nguyên dương n, m, x, y( 1 ≤ n, m≤100, 1 ≤x ≤n, 1 ≤y ≤m)
+-n dòng tiếp theo, dòng thứ i (1 ≤ i ≤ n) chứa m số nguyên aij(1 ≤ j ≤ m) là phần tử thứj của dòng i. (-1000 ≤ aij≤ 1000)
+
+Đầu ra: 
+In ra tổng các phần tử nằm trên một trong hai đường chéo đi qua phần tử nằm trên hàng x, cột y
+
+Ví dụ:
+Đầu vào                        Đầu ra
+3 4 2 2                         4   
+
+1 -2 3 2
+4 -5 9 0
+3 3 2 -2
+
+Giải thích : Phần tô đỏ là các điểm nằm trên một trong hai đường chéo đi qua điểm x, y (x = 2, y = 2) đường chéo đi qua. 
+Ô màu xanh là ô (x, y)
+1  -2   3   2
+4  -5   9   0
+3   3   2  -2
