@@ -1,0 +1,24 @@
+ID : 044, Title : Hiện diện
+Cho hai ma trận A gồm n hàng và m cột và ma trận B gồm x hàng và y cột.
+Hãy kiểm tra xem B có xuất hiện trong A hay không. B xuất hiện trong A khi tồn tại một ma trận con của A bằng B.
+
+Đầu vào : 
+-Dòng đầu tiên gồm bốnsốnguyên dương n, m, x, y( 1 ≤ n, m, x, y≤ 10)
+-n dòng tiếp theo, dòng thứi (1 ≤ i ≤ n) chứa m sốnguyên aij(1 ≤ j ≤ m) là phần tử thứ j của dòng i. (1 ≤ aij≤ 100)
+-x dòng cuối cùng , dòng thứ i (1 ≤ i ≤ x) chứa m sốnguyên bij(1 ≤ j ≤ y) là phần tử thứ j của dòng i. (1 ≤ bij≤ 100)
+
+Đầu ra: 
+In ra YES nếu B xuất hiện trong A, ngược lại in ra NO
+
+Ví dụ:
+Đầu vào                 Đầu ra
+3 4 2 2                   YES
+1 3 4 2
+2 6 8 1
+2 3 4 5
+4 2 8 1 
+
+Giải thích : Phần tô đỏ là phần B xuất hiện trong A.
+1 3 4 2
+2 6 8 1
+2 3 4 5
