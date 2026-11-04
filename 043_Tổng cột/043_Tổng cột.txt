@@ -1,0 +1,15 @@
+ID : 043, Title : Tổng cột
+Cho mảng hai chiều A gồm n dòng và m cột. Hãy tính tổng từng cột của A. 
+
+Đầu vào : 
+-Dòng đầu tiên gồm hai số nguyên dương n và m ( 1 ≤ n, m ≤ 100)
+-n dòng tiếp theo, dòng thứi (1 ≤ i ≤ n) chứa m số nguyên aij(1 ≤ j ≤m) là phần tử thứ j của dòng i. (-109≤ aij≤ 109)
+
+Đầu ra: In ra m phần tử, phần tử thứ j (1 ≤ j ≤ m) là tổng của cột thứ j. 
+
+Ví dụ:
+Đầu vào               Đầu ra
+3 4                  8 -4 14 0
+1 -2 3 2
+4 -5 9 0
+3 3 2 -2
