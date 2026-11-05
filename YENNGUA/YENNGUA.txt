@@ -1,0 +1,21 @@
+Bài 4: YENNGUA – YÊN NGỰA 
+Bạn được cung cấp một ma trận có kích thước M*N chứa các giá trị nguyên dương. Nhiệm vụ trong bài này của bạn là in ra tất cả vị trí phần 
+tử yên ngựa trong ma trận trên. Biết rằng phần từ yên ngựa là phần tử mà phần tử đó lớn nhất trong hàng và nhỏ nhất trong cột 
+
+Dữ liệu đầu vào:
+-Dòng đầu tiên chứa hai số nguyên dương M, N (0 <𝑀𝑀,𝑁𝑁 ≤100)
+-M  dòng  tiếp  theo  chứa  N  số nguyên dương 𝐴𝐴𝑖𝑖,𝑗𝑗(0 <𝑖𝑖 ≤𝑀𝑀, 0 <𝑗𝑗≤𝑁𝑁) là các phần tử trong mảng (𝐴𝐴𝑖𝑖,𝑗𝑗≤105)
+
+Dữ liệu đầu ra:
+-Dòng đầu tiên chứa số nguyên K chứa số lượng phần tử yên ngựa.
+-K dòng tiếp theo chứa hai cặp số(𝑋𝑋,𝑌𝑌) là vị trí phần tử yên ngựa 
+
+Ví dụ:  
+INPUT               OUTPUT  
+4 4                    1
+12 32 34 90         2  2
+1 31 30 5
+4 33 20 44
+3 34 35 23
+
+Giải thích: Trong ma trận này chỉ có vị trí (2, 2) có giá trị là 31 thoả mãn yêu cầu đề bài
