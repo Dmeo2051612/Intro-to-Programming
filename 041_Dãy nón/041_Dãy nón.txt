@@ -1,0 +1,23 @@
+ID : 041, Title : Dãy nón
+Cho dãy A gồm n phần tử. Kiểm tra xem A có phải là dãy nón không. Một dãy được gọi là dãy nón nếu 
+tồn tại chỉ số i ( 1 ≤i ≤n) sao cho :
+-Với mọi j < i thì aj< aj + 1
+-Với mọi j >i thì aj< aj -1
+
+Đầu vào : Dòng đầu tiên gồm số nguyên dương n ( 1 ≤ n ≤ 1000 ) sốlượng phần tử của dãy a
+Dòng thứ hai gồm n số nguyên ailà phần tử thứ i ( 1 ≤ i ≤ n) củadãy A.  ( -103≤ ai ≤ 103).
+
+Đầu ra :
+In ra YES nếu dãy A là dãy nón, ngược lại in ra NO
+
+Ví dụ:
+
+Đầu vào             Đầu ra 
+4                   YES
+1 4 10 2
+
+
+
+Đầu vào             Đầu ra
+4                   NO
+1 4 1 4
