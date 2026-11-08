@@ -1,0 +1,16 @@
+ID : 038, Title : Độc nhất
+Cho mảng A gồm n phần tử. Xoá các phần tử trùng nhau và in ra mảng A theo thứ tự tăng dần.
+
+Đầu vào : 
+Dòng đầu tiên gồm số nguyên dương n ( 1 ≤ n ≤ 1000 ) số lượng phần tử của mảng a
+Dòng thứhai gồm n số nguyên ai là phần tử thứ i ( 1 ≤ i ≤ n)của mảng A.  ( -103≤ ai ≤ 103).
+
+Đầu ra :
+In ra mảng A theo thứ tự tăng dần sau khi xoá các phần tử trùng nhau
+
+Ví dụ:
+Đầu vào             Đầu ra
+5                   -5 -3 4 9
+-5 -3 4 4 9
+
+Giải thích : Số 4 xuất hiện nhiều lần (2 lần) nên xoá và giữ lại chính xác 1 số 4.
