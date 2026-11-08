@@ -1,0 +1,14 @@
+ID : 039, Title : Giá trịthường xuyên
+Cho mảng A gồm n phần tử. Đếm số lượng giá trị xuất hiện nhiều hơn 2 lần trong mảng A. 
+
+Đầu vào :
+Dòng đầu tiên gồm số nguyên dương n ( 1 ≤ n ≤ 1000 ) số lượng phần tử của mảng a
+Dòng thứ hai gồm n số nguyên ai là phần tử thứ i ( 1 ≤ i ≤ n)của mảng A.  ( -103≤ ai ≤ 103).
+
+Đầu ra : 
+In ra số lượng giá trị xuất hiện nhiều hơn 2 lần trong mảng A. 
+
+Ví dụ:
+Đầu vào                     Đầu ra
+7                               1
+-1 2 3 2 2 3 -1
