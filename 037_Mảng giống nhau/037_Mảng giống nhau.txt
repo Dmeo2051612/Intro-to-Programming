@@ -1,0 +1,25 @@
+ID : 037, Title : Mảng giống nhau
+Cho hai mảng A và B đều gồm n phần tử. Hãy xác định xem hai mảng này có giống nhau hay không. 
+Hai mảng được xem là giống nhau khi từng giá trị xuất hiện số lần giống nhau trong cả hai mảng.
+
+Đầu vào : 
+Dòng đầu tiên gồm số nguyên dương n ( 1 ≤ n ≤ 1000 ) số lượng phần tử của mảng a
+Dòng thứ hai gồm n số nguyên ai là phần tử thứ i ( 1 ≤ i ≤ n)của mảng A.  ( -103≤ ai ≤ 103).
+Dòng thứ ba gồm n số nguyên bi là phần tử thứ i ( 1 ≤ i ≤ n)của mảng B.  ( -103≤ bi ≤ 103).
+
+Đầu ra :
+In ra YES nếu mảng A và mảng B giống nhau, ngược lại in ra NO
+
+Ví dụ:
+
+Đầu vào               Đầu ra 
+5                       YES
+3 4 5 5 1
+1 5 5 4 3
+
+Giải thích : 
+Số 3 xuất hiện 1 lần trong cả hai mảng 
+Số 4 xuất hiện 1 lần trong cả hai mảng 
+Số 1 xuất hiện 1 lần trong cảhai mảng
+Số 5 xuất hiện 2 lần trong cả hai mảng
+Nên mảng A và mảng B giống nhau (vì tất cả các giá trị xuất hiện số lần giống nhau trong cả hai mảng)
