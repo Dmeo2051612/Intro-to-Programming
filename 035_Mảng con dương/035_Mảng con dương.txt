@@ -1,0 +1,14 @@
+ID : 035, Title : Mảng con dương
+Cho mảng A gồm n phần tử. Hãy tìm đoạn con liên tiếp dài nhất chỉ gồm các phần tử dương.
+
+Đầu vào :
+Dòng đầu tiên gồm số nguyên dương n ( 1 ≤n ≤1000 ) số lượng phần tửcủa mảng a
+Dòng tiếp theo gồm n số nguyên ai là phần tử thứ i ( 1 ≤ i ≤ n)của mảng A.  ( -103≤ ai ≤ 103).
+
+Đầu ra :
+In ra độ dài của đoạn con liên tiếp dài nhất chỉ gồm các phần tử dương, nếu không có đoạn con nào thì in ra 0.
+
+Ví dụ:
+Đầu vào                 Đầu ra
+6                           3
+-1 -2 3 4 2 -2 
