@@ -1,0 +1,17 @@
+ID : 032, Title : Xoay mảng
+Cho mảng A gồm n số nguyên. Thực hiện thao tác xoay trái mảng k lần rồi in ra mảng.
+
+Ví dụ mảng A=(1,2,3,4,5), sau khi xoay trái 1 lần sẽ trở thành (2,3,4,5,1)(phần tửđầu tiên trở vềcuối cùng).
+
+Đầu vào :
+Dòng đầu tiên gồm sốnguyên dương n ( 1 ≤ n ≤ 1000 ) số lượng phần tử của mảng A và số nguyên dương k ( 1 ≤ k ≤ n ) số lần xoay trái. 
+Dòng tiếp theo gồm n sốnguyên ai là phần tử thứ i ( 1 ≤ i ≤ n)của mảng A.  ( -103≤ ai ≤ 103).
+
+Đầu ra :  
+In ra mảng A sau khi xoay trái k lần. 
+
+Ví dụ:
+
+Đầu vào             Đầu ra
+5 2                 3 4 5 1 2
+1 2 3 4 5
