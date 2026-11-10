@@ -1,0 +1,23 @@
+ID : 033, Title : Mảng Palindrome
+Cho mảng A gồm n số nguyên. Kiểm tra xem mảng A có phải là mảng Palindrome không (Palindrome là đối xứng)
+
+Ví dụ 
+mảng A=(11,2,3,2,11), là mảng Palindrome
+Còn mảng A = (123,3,21), không phải là mảng Palindrome
+
+Đầu vào : 
+Dòng đầu tiên gồm số nguyên dương n ( 1 ≤ n ≤ 1000 ) số lượng phần tử của mảng A.
+Dòng tiếp theo gồm n số nguyên ai là phần tử thứ i ( 1 ≤ i ≤ n) của mảng A.  ( -103≤ ai ≤ 103).
+
+Đầu ra : 
+In ra YES nếu mảng A là mảng Palindrome, ngượclại in ra NO
+
+Ví dụ:
+
+Đầu vào                 Đầu ra
+5                       YES
+11 2 3 2 11
+
+Đầu vào                 Đầu ra
+3                       NO
+123 3 21
