@@ -1,0 +1,14 @@
+ID : 030, Title : Lớn thứ hai
+Cho mảng A gồm n số nguyên đôimột khác nhau, tìm giá trị lớn thứhai của A.
+
+Đầu vào : 
+Dòng đầu tiên gồm số nguyên dương n ( 1 ≤ n ≤ 1000 ) số lượng phần tửcủa mảng A. 
+Dòng tiếp theo gồm n số nguyên ai là phần tử thứ i ( 1 ≤ i ≤ n) của mảng A.  ( -105≤ ai ≤ 105).
+
+Đầu ra : 
+In ra một số nguyên là giá trị lớn thứ hai của A.
+
+Ví dụ:
+Đầu vào                 Đầu ra
+4                           3
+4 3 2 1
