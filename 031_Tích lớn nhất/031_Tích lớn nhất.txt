@@ -1,0 +1,14 @@
+ID : 031, Title : Tích lớn nhất
+Cho mảng A gồm n số nguyên. Hãy tìm giá trị ai× aj lớn nhất mà 1 ≤ i < j ≤ n. 
+
+Đầu vào : 
+Dòng đầu tiên gồm số nguyên dương n ( 1 <n ≤ 1000 ) số lượng phần tử của mảng A. 
+Dòng tiếp theo gồm n số nguyên ai là phần tử thứ i ( 1 ≤ i ≤ n) của mảng A.  ( -109≤ ai ≤ 109).
+
+Đầu ra : 
+In ra một số nguyên là giá trị ai× aj lớn nhất mà 1 ≤ i < j ≤ n. 
+
+Ví dụ:
+Đầu vào             Đầu ra
+4                   20
+-2 -10 3 4
