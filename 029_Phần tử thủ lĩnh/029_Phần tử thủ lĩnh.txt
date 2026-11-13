@@ -1,0 +1,20 @@
+D : 029, Title : Phần tử thủ lĩnh
+
+Cho mảng A gồm n số nguyên, đếm số lượng những phần tử thủ lĩnh của mảng, biết rằng phần tử thủ lĩnh là phần tử lớn hơn mọi phần tử
+nằm bên phải nó trong mảng. 
+
+Chú ý phần tử cuối cùng do không có phần tử nào nằm bên phải nó nên nó không phải phần tử thủ lĩnh.
+
+Đầu vào :
+Dòng đầu tiên gồm số nguyên dương n ( 1 ≤ n ≤ 1000 ) số lượng phần tử của mảng A. 
+Dòng tiếp theo gồm n sốnguyên ai là phần tử thứ i ( 1 ≤ i ≤ n) của mảng A.  ( 1≤ ai≤ 1000).
+
+Đầu ra :
+In ra số lượng phần tử thủ lĩnh trong mảng.
+
+Ví dụ:
+Đầu vào                     Đầu ra
+5                           1
+4 3 2 5 1
+
+Giải thích :Phần tửthủlĩnh duy nhất trong mảng là phần tửthứ4 (giá trị5)
