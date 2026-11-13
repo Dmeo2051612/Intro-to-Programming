@@ -1,0 +1,18 @@
+ID : 028, Title : Dương âm
+Cho mảng A gồm n số nguyên, Hãy sắp xếp mảng xen kẽcác phần tử âm và dương. 
+Thứ tự tương đối giữa các phần tửcùng âm hoặc dương không được thay đổi.
+
+Đầu vào :
+Dòng đầu tiên gồm số nguyên dương n ( 1 ≤ n ≤ 1000 ) số lượng phần tử của mảng A. 
+Dòng tiếp theo gồm n sốnguyên ai là phần tử thứ i ( 1 ≤ i ≤ n) của mảng A.  ( -1000≤ ai≤ 1000, ai≠ 0).
+
+Đầu ra :
+In mảng A sau khi sắp xếp thỏa mãn điều kiện.
+
+Ví dụ:
+Đầu vào             Đầu ra
+6                   -3 1 -5 5 6 2
+1 5 -3 6 2 -5
+
+Giải thích : Trong ví dụ, các phần tửđược sắp xếp âm dương xen kẽ. Khi hết phần tửâm, tiếp tục sử dụng các phần tử dương còn lại.
+Tương tự với khi hết phần tử dương và còn phần tử âm
