@@ -1,0 +1,16 @@
+ID : 024, Title : Đảo ngược mảng
+Cho mảng A gồm n số nguyên dương. Hãy in các phần tử ở vị trí lẻ theo thứ tự ngược lại. 
+Chỉ số của mảng bắt đầu từ 1.
+
+Đầu vào :
+Dòng đầu tiên chứa số nguyên dương n: số lượng phần tử trong mảng A
+Dòng tiếp theo chứa n số nguyên Ai( 1 ≤ i ≤n) là các phần tửcủa mảng ( 1 ≤Ai≤1000 ).
+
+Đầu ra :
+In các phần tử ở vịtrí lẻ theo thứ tự ngược lại.
+
+Ví dụ:
+Đầu vào             Đầu ra
+5                   3 4 1
+1 2 4 5 3
+Giải thích : Các phần tử ởv ịtrí lẻl à {1, 4, 3} thứ tự ngược lại là {3, 4, 1}
