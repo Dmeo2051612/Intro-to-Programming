@@ -8,7 +8,7 @@ Dòng đầu tiên gồm số nguyên dương n ( 1 ≤ n ≤ 1000 ) số lượ
 Dòng tiếp theo gồm n số nguyên ai là phần tử thứ i ( 1 ≤ i ≤ n) của mảng A.  ( 1≤ ai≤ 1000).
 
 Đầu ra :
-In ra giá trị chênh lệch lớn nhất giữa hai phần tử liên tiếp trong mảng.
+In ra giá trị lớn nhất và vị trí xuất hiện đầu tiên trong mảng.
 
 Ví dụ:
 Đầu vào             Đầu ra
