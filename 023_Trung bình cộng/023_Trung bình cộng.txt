@@ -1,0 +1,14 @@
+ID : 023, Title : Trung bình cộng
+Cho mảng A gồm n số nguyên dương. Nhiệm vụcủa bạn là tìm trung bình cộng của tất cả các phần tử trong mảng A.
+
+Đầu vào :
+Dòng đầu tiên chứa số nguyên dương n: số lượng phần tử trong mảng A
+Dòng tiếp theo chứa n số nguyên Ai( 1 ≤i ≤n) là các phần tửcủa mảng ( 1 ≤Ai≤1000 ).
+
+Đầu ra :
+In ra một số thực là trung bình cộng của tất cả các phần tử của mảng A được làm tròn tới chữ số thứ 3.
+
+Ví dụ:
+Đầu vào                 Đầu ra
+5                       1.200
+1 1 2 1 1
