@@ -1,0 +1,18 @@
+ID : 027, Title : Giá trị lớn nhất
+Cho mảng A gồm n số nguyên, tìm giá trị lớn nhất và vị trí xuất hiện của nó. 
+Nếu có nhiều giá trị lớn nhất, in ra vị trí xuất hiện đầu tiên.
+Mảng bắt đầu từ chỉsố 1.
+
+Đầu vào :
+Dòng đầu tiên gồm số nguyên dương n ( 1 ≤ n ≤ 1000 ) số lượng phần tử của mảng A. 
+Dòng tiếp theo gồm n số nguyên ai là phần tử thứ i ( 1 ≤ i ≤ n) của mảng A.  ( 1≤ ai≤ 1000).
+
+Đầu ra :
+In ra giá trị chênh lệch lớn nhất giữa hai phần tử liên tiếp trong mảng.
+
+Ví dụ:
+Đầu vào             Đầu ra
+4                   3 1
+3 2 2 3
+
+Giải thích : Giá trịlớn nhất của mảng là 3. Và vịtrí xuất hiện đầu tiên của nó là 1
