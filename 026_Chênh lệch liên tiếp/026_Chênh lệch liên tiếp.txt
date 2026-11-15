@@ -1,0 +1,16 @@
+ID : 026, Title : Chênh lệch liên tiếp
+Cho mảng A gồm n số nguyên, hãy tìm giá trị chênh lệch lớn nhất giữa hai phần tử liên tiếp trong mảng.
+
+Đầu vào : 
+Dòng đầu tiên gồm số nguyên dương n ( 1 <n ≤ 1000 ) số lượng phần tử của mảng A. 
+Dòng tiếp theo gồm n số nguyên ai là phần tử thứ i ( 1 ≤ i ≤ n) của mảng A.  ( 1 ≤ ai≤ 1000).
+
+Đầu ra : 
+In ra giá trị chênh lệch lớn nhất giữa hai phần tử liên tiếp trong mảng.
+
+Ví dụ:
+Đầu vào             Đầu ra
+6                   9
+1 7 5 4 10 1
+
+Giải thích : Giá trị chênh lệch lớn nhất giữa hai phần tử liên tiếp trong mảng trên là giữa phần tử thứ 5 và phần tử thứ 6 (10 và 1).
