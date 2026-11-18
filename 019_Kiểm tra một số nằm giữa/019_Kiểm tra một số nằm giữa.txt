@@ -1,0 +1,15 @@
+ID : 019, Title : Kiểm tra một số nằm giữa
+Cho hai số nguyên a và b. In ra 1 nếu chính xác một trong a hoặc b nằm trong khoảng [10, 20], ngược lại in ra 0.
+
+Đầu vào :
+Dòng duy nhất chứa hai số nguyên a và b (0 ≤a, b ≤99).
+
+Đầu ra :
+In ra 1 nếu chính xác một trong a hoặc b nằm trong khoảng [10, 20], ngược lại in ra 0.
+
+Ví dụ:
+Đầu vào     Đầu ra
+12 99       1
+
+Đầu vào     Đầu ra
+8 99        0
