@@ -1,0 +1,16 @@
+ID : 020, Title : Kiểm tra chữ số chung
+
+Cho hai số nguyên a và b. In ra 1nếu chính xác một chữ số xuất hiện trong cả a và b, ngược lại in ra 0.
+
+Đầu vào : 
+Dòng duy nhất chứa hai số nguyên a và b (10≤a, b ≤99).
+
+Đầu ra :
+In ra 1 nếu chính xác một chữ số xuất hiện trong cả a và b, ngược lại in ra 0.
+
+Ví dụ:
+Đầu vào          Đầu ra
+12 23               1
+
+Đầu vào         Đầu ra
+12 43               0
