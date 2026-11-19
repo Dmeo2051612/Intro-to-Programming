@@ -1,0 +1,16 @@
+ID : 017, Title : Bội chung nhỏ nhất
+Bạn được cung cấp hai số nguyên dương a và b , nhiệm vụ của bạn là tìm bội chung nhỏ nhất của a và b.
+
+Đầu vào :
+Một dòng gồm 2 số nguyên a, b(1 ≤ a, b≤ 106). 
+
+Đầu ra:
+Một số nguyên dương duy nhất là bội chung nhỏ nhấtcủa a và b.
+
+Ví dụ:
+Đầu vào             Đầu ra
+3 7                 21
+
+
+Đầu vào             Đầu ra
+10 2                   10
