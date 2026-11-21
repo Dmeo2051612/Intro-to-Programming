@@ -1,0 +1,17 @@
+ID : 015, Title : Đoạn thẳng
+
+Cho hai đoạn thẳng AB và CD nằm trên trục số. Đoạn thẳng AB kéo dài từ điểm a đến điểm b, và đoạn thẳng CD kéo dài từ điểm c đến điểm d.
+Hãy kiểm tra xem hai đoạn thẳng có điểm chung không?
+
+Đầu vào : 
+Một dòng gồm 4 số nguyên a, b, c, d(1 ≤a, b, c, d≤1000, a ≤ b, c ≤d). 
+
+Đầu ra: 
+Nếu hai đoạn thẳng có ít nhất một điểm chung hãy in ra YES, ngược lại in ra NO.
+
+Ví dụ:
+Đầu vào         Đầu ra
+1 2 2 3         YES
+
+Đầu vào         Đầu ra
+1 2 34          NO
