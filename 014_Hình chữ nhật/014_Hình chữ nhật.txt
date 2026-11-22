@@ -1,0 +1,13 @@
+ID : 014, Title : Hình chữ nhật
+
+Cho độ dài 3 cạnh a, b, c của hình chữ nhật, nhiệm vụ của bạn là tìm ra độ dài của cạnh còn lại.
+
+Đầu vào : 
+Một dòng gồm 3 số nguyên a, b, c (1 ≤a, b, c ≤1000). Đầu vào đảm bảo luôn tồn tại đáp án.
+
+Đầu ra: 
+In ra độ dài của cạnh còn lại.
+
+Ví dụ:
+Đầu vào         Đầu ra
+4 3 4           3
