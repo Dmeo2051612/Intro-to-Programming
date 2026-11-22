@@ -1,0 +1,20 @@
+ID : 013, Title : Hoá đơn tiền điện
+
+Tiền điện hàng tháng được tính theo công thức:
+-Từ kWh 0 đến 50 : a đồng / kWh
+-Từ kWh 51 đến 100 : b đồng / kWh
+-Từ kWh 101 đến 150 : c đồng / kWh
+-Từ kWh 151 trở đi : d đồng / kWh
+
+Cho số kWh sử dụng là x và bốn số nguyên a, b, c, d. Hãy tính giá tiền điện.
+
+Đầu vào : 
+Một dòng gồm 5 số nguyên x, a, b, c, d (1 ≤ x, a, b, c, d ≤ 1000) 
+
+Đầu ra: 
+In ra giá tiền điện.
+
+Ví dụ:
+
+Đầu vào         Đầu ra
+60 1 2 3 4      70
