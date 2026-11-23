@@ -1,0 +1,12 @@
+D : 012, Title : Giai thừa
+Bạn được cung cấp số nguyên không âm n. Nhiệm vụ của bạn là tính n!
+
+Đầu vào :  
+Một dòng gồm sốnguyên dương n (0≤ n≤20)
+
+Đầu ra:
+In ra một số nguyên là giá trị của n!
+
+Ví dụ:
+Đầu vào         Đầu ra
+5               120
