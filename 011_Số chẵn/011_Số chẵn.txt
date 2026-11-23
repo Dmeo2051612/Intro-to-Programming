@@ -1,0 +1,13 @@
+ID : 011, Title : Số chẵn
+
+Bạn được cung cấp số nguyên dương n. In ra các số nguyên dương không vượt quá n và chia hết cho 2theo thứ tự giảm dần.
+
+Đầu vào : 
+Một dòng gồm số nguyên dương n (2 ≤ n≤1000)
+
+Đầu ra:
+In ra các số nguyên dương không vượt quá n và chia hết cho 2 theo thứ tự giảm dần.
+
+Ví dụ:
+Đầu vào     Đầu ra
+7           6 4 2 
