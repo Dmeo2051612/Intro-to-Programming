@@ -1,0 +1,16 @@
+ID : 009, Title : Kiểm tra số nguyên tố
+
+Bạn được cung cấp một số nguyên dương n , nhiệm vụ của bạn là kiểm tra xem n có phải là số nguyên tố hay không. 
+
+Đầu vào :  
+Một dòng gồm sốnguyênn (1 ≤ n ≤ 1012) 
+
+Đầu ra: 
+In ra  YES nếu n là số nguyên tố, ngược lại in ra NO
+
+Ví dụ:
+Đầu vào     Đầu ra
+3           YES
+
+Đầu vào     Đầu ra
+4           NO
