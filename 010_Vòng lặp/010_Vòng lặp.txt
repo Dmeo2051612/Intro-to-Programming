@@ -1,0 +1,12 @@
+ID : 010, Title : Vòng lặp
+Cho hai số nguyên l và r. Hãy in ra các số nguyên nằm trong khoảng [l, r] theo thứ tự từ nhỏ tới lớn. 
+
+Đầu vào : 
+Một dòng gồm hai số nguyên l và r (1 ≤ l ≤ r ≤ 100)
+
+Đầu ra:
+Một dòng gồm các số nguyên nằm trong khoảng [l, r]theo thứ tự từ nhỏ tới lớn.
+
+Ví dụ: 
+Đầu và      Đầu ra
+3 5         3 4 5
