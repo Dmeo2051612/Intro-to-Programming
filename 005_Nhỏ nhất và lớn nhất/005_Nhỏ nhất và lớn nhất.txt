@@ -1,0 +1,13 @@
+ID : 005, Title : Nhỏ nhất và lớn nhất
+
+Cho ba số nguyên a, b, c. Nhiệm vụcủa bạn là tìm ra số nhỏ nhất trong ba số và số lớn nhất trong ba số.
+
+Đầu vào : 
+Một dòng gồm ba số nguyên a, b, c(1 ≤ a, b, c≤ 103)
+
+Đầu ra :
+Một số nguyên duy nhất là giá trịcủa biểu thức. 
+
+Ví dụ:
+Đầu vào     Đầu ra
+4 3 4       3 4
