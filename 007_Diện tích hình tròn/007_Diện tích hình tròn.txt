@@ -1,0 +1,13 @@
+ID : 007, Title : Diện tích hình tròn
+Bạn được cung cấp số thực R là bán kính của một hình tròn, nhiệm vụ của bạn là tính diện tích hình tròn đó. Trong bài này, chúng ta xem xét  
+π= 3.14
+
+Đầu vào : 
+Một dòng gồm số nguyên R , (0.01 ≤R≤100.00). R có chính xác hai chữ số sau dấu phẩy.
+
+Đầu ra: 
+In ra diện tích của hình tròn, làm tròn tới chữ số thứ 2 sau dấu phẩy.
+
+Ví dụ:
+Đầu vào         Đầu ra
+14.16           629.59
