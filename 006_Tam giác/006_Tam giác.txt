@@ -1,0 +1,15 @@
+ID : 006, Title : Tam giác
+Bạn được cung cấp 3 cạnh có độ dài a, b, c. Nhiệm vụ của bạn là kiểm tra xem có thể tạo thành tam giác từ 3 cạnh này hay không.
+
+Đầu vào : 
+Một dòng gồm ba số nguyên a, b, c(1 ≤ a, b, c≤ 103)
+
+Đầu ra :
+In ra YES nếu có thể tạo thành tam giác từ 3 cạnh a, b, c, ngược lại thì in ra NO. 
+
+Ví dụ:
+Đầu vào     Đầu ra
+4 3 4       YES
+
+Đầu vào     Đầu ra
+10 2 7      NO
